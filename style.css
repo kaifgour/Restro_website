@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(maincover.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box{
+    
+    margin-top: -75px;
+    width: 554px;
+    float: right;
+
+}
+
+.box ul li{
+    width: 100px;
+    float: left;
+    margin: 10px ;
+    text-align: center;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: #f9ab67;
+    font-size: 20px;
+}
+
+.box ul li:hover{
+    background-color:snow;
+}
+
+.box ul li:hover a{
+     color:brown;
+}
+
+.brand{
+    color: #f9ab67;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+.brand h2{
+    padding: 35px 125px;
+}
+
+.temp{
+    width: 400px;
+    height: 560px;
+    background-color: #323232;
+    opacity: 0.9;
+    padding: 10px 34px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.temp h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #f9ab67;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.temp p,h3{
+    color: #f9ab67;
+    text-align: center;
+}
+
+.temp h3{
+    padding: 12px;
+    font-size: 22px;
+}
+
+.temp p{
+    padding: 6px 7px;
+}
+
+.btn {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    background-color:#f9ab67 ;
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.temp >a:hover{
+    color: brown;
+    background-color: snow;
+    border: 1px solid brown;
+
+}
+
+@media (min-width:577px) and (max-width:940px){
+    .brand{
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .box ul>li{
+        padding-top: 100px;
+    }
+    .temp{
+        margin-top: 100px;
+    }
+}
+@media (min-width:300px) and (max-width:576px){
+    .brand{
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .box ul>li{
+        padding-top: 100px;
+        text-align: center;
+        overflow: hidden;
+        position: auto;
+    }
+    .temp{
+        margin-top: 100px;
+    }
+}
